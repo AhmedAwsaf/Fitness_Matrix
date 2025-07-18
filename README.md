@@ -1,49 +1,70 @@
-# Fitness Matrix
+# Fitness Tracker 🏋️‍♀️🥗📈
 
-**Fitness Matrix** is a comprehensive fitness management app that helps users achieve their fitness goals. From tracking calories to planning meals, workout routines, and progress tracking, Fitness Matrix is your ultimate fitness companion.
+A full-stack MERN (MongoDB, Express.js, React, Node.js) application designed to help users achieve their fitness goals through personalized workout planning, nutrition tracking, and progress analytics — all wrapped in a modern and user-friendly interface.
 
-## Features
+---
 
-### User Information Management
-- **Account Management**: Users can create accounts and log in to access personalized features.
-- **Body Mass Index (BMI) Calculator**: Calculate your BMI before starting your fitness journey.
-- **Calorie Requirement Calculator**: Determine the calories needed to achieve your fitness goals.
+## 🚀 Features
 
-### Meal Planning and Diet
-- **Meal Plans**: Plan meals based on your calorie intake and goals.
-- **Healthy Recipes**: Access a variety of recipes for a balanced diet.
-- **Calorie Counter**: Track the calories in each meal.
-- **Water Intake Tracker**: Keep track of your daily water consumption.
+### 👤 User Profile Setup
+- Sign-up/login with email or social media.
+- Personal profile with fitness goals (e.g., weight loss, strength training).
+- Basic health info: height, weight, age, gender.
+- Privacy controls for profile visibility.
 
-### Workout Plans
-- **Workout Tutorials**: Get tutorials for beginners to start your fitness journey.
-- **Nearby Gyms Map**: Locate gyms near you for convenient workouts.
+### 📝 Workout Planning
+- Create and customize workout routines for different days.
+- Set daily fitness goals (duration, calories).
+- Add and categorize exercises (cardio, strength, etc.).
+- Track workout completion and overall progress.
 
-### Yoga and Wellness
-- **Yoga Tutorials**: Learn yoga routines to improve flexibility and mental wellness.
+### 📒 Activity Log
+- Daily log for recording completed workouts and stats (duration, reps, distance, calories).
+- Option to add personal notes or feelings post-workout.
+- Auto-updates user progress.
 
-### User Progress Tracker
-- **Progress Logbook**: Log your progress over time.
-- **Body Measurements Tracker**: Track your body measurements to monitor changes.
-- **Personal Goal Setting**: Set and achieve personalized fitness goals.
+### 🥗 Nutrition Tracking
+- Daily food log with calorie counter and macronutrient breakdown.
+- Searchable food database for easy meal logging.
+- Visualize calorie intake vs. daily targets.
+- Save favorite meals for quick future entries.
 
-### Online Shop
-- **Supplements**: Browse and purchase fitness supplements.
-- **Gym Equipment**: Shop for gym equipment to enhance your workouts.
+### 📊 Progress Analytics
+- Charts for trends in activity, nutrition, and key health metrics.
+- Track weight changes, strength gains, stamina improvements.
+- Weekly summaries: calories burned, workouts completed.
+- Badge system for rewarding consistency (e.g., 7-day streaks).
 
-## Features in Development
-- **Meal Plans**: Advanced meal planning functionality.
-- **Workout Routines**: Comprehensive workout plans for different fitness levels.
-- **Workout Blogs**: Articles on the benefits of regular exercise.
-- **Workout Timer**: A timer to help you manage your workouts.
-- **Yoga Routines**: Structured yoga plans for various levels.
-- **Meditation Music Player**: Access calming music to enhance meditation.
-- **Sleep Tracker**: Monitor your sleep patterns to improve recovery and health.
+---
 
-## Installation
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Redux (optional), Tailwind CSS / Material UI
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB with Mongoose
+- **Authentication:** JWT, OAuth (for social login support)
+- **Visualization:** Chart.js / Recharts
+
+---
+
+<div align="center">
+
+| Contributor        | GitHub Profile                                                                                 | Followers                                                                                           |
+|--------------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Ahmed Awsaf**    | [![Ahmed's GitHub](https://img.shields.io/badge/-AhmedAwsaf-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AhmedAwsaf) | ![Followers](https://img.shields.io/github/followers/AhmedAwsaf?label=Follow&style=social)          |
+| **Zaima Mashiat**  | [![Zaima's GitHub](https://img.shields.io/badge/-zaimamashiat-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zaimamashiat) | ![Followers](https://img.shields.io/github/followers/zaimamashiat?label=Follow&style=social)       |
+| **Tasnia Taslim Hossain**  |       |
+| **Shafkat Zahir**  | [![Zaima's GitHub](https://img.shields.io/badge/-shafkatzahir-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SafkatZ) | ![Followers](https://img.shields.io/github/followers/SafkatZ?label=Follow&style=social)       |
+
+</div>
+
+---
+
+
+## 📝 Setup & Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/fitness-matrix.git
+   git clone https://github.com/AhmedAwsaf/Fitness_Tracker.git
    ```
 2. Navigate to the frontend directory:
    ```bash
@@ -58,12 +79,6 @@
    npm i
    node server.js
    ```
-
-## Tech Stack
-- **Frontend**: React, Tailwind CSS
-- **Backend**: Node.js
-- **Database**: MongoDB
-- **API Integrations**: Open Street Maps API (for locating nearby gyms)
 
 ---
 
