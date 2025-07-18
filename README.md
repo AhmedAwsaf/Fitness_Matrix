@@ -63,6 +63,16 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application designed to 
 
 ---
 
+DEMO LOGIN
+
+```bash
+
+username = johndoe@example.com
+password = Password123
+
+```
+
+---
 
 ## 📝 Setup & Installation
 1. Clone the repository:
