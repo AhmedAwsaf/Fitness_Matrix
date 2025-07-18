@@ -1,4 +1,4 @@
-# Fitness Tracker 🏋️‍♀️🥗📈
+# Fitness Matrix 🏋️‍♀️🥗📈
 
 A full-stack MERN (MongoDB, Express.js, React, Node.js) application designed to help users achieve their fitness goals through personalized workout planning, nutrition tracking, and progress analytics — all wrapped in a modern and user-friendly interface.
 
