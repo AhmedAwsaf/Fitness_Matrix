@@ -15,6 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
+app.options('*', cors());
 app.use(express.json()); // Parse JSON requests
 
 // Database connection
