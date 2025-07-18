@@ -69,7 +69,6 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application designed to 
 2. Navigate to the frontend directory:
    ```bash
    cd frontend
-   cd fitness_matrix
    npm i
    npm run dev
    ```
